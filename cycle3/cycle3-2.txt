@@ -1,0 +1,25 @@
+<html>
+<title>bulb</title>
+<style>
+
+</style>
+<body>
+	<h1 align="center">ON and OFF bulb</h2>
+	<button id="on1">ON</button> 
+	<button id="off1">OFF</button>
+	<img id="light" src="C:\Users\SDPK_CEC\Desktop\html 40\pic_bulboff.gif" alt="light off"
+	<script>
+		document.getElementById('on1').addEventListener("click",function()
+		{
+			document.getElementById('light').src="‪C:\Users\SDPK_CEC\Desktop\html 40\pic_bulbon.gif";
+		});	
+		document.getElementById('off1').addEventListener("click",function()
+		{
+			document.getElementById('light').src="C:\Users\SDPK_CEC\Desktop\html 40\pic_bulboff.gif" ;
+		});
+	
+	</script>
+
+
+</body>
+</html>
